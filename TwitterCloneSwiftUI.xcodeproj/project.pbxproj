@@ -18,6 +18,7 @@
 		94C84C2F2815C38D0073581A /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C84C2E2815C38D0073581A /* NotificationsView.swift */; };
 		94C84C312815C3C60073581A /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C84C302815C3C60073581A /* MessagesView.swift */; };
 		94C84C392815C5820073581A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C84C382815C5820073581A /* ProfileView.swift */; };
+		94C84C3B2815CF210073581A /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C84C3A2815CF210073581A /* TweetFilterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		94C84C2E2815C38D0073581A /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		94C84C302815C3C60073581A /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		94C84C382815C5820073581A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		94C84C3A2815CF210073581A /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 		94C84C362815C56A0073581A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				94C84C3A2815CF210073581A /* TweetFilterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			files = (
 				94C84C312815C3C60073581A /* MessagesView.swift in Sources */,
 				94C84C392815C5820073581A /* ProfileView.swift in Sources */,
+				94C84C3B2815CF210073581A /* TweetFilterViewModel.swift in Sources */,
 				94C84C0D2815B47C0073581A /* ContentView.swift in Sources */,
 				94C84C2F2815C38D0073581A /* NotificationsView.swift in Sources */,
 				94C84C242815B6E50073581A /* TweetRowView.swift in Sources */,
