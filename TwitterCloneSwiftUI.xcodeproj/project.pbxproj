@@ -51,6 +51,10 @@
 		94C84C092815B47C0073581A /* TwitterCloneSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				94C84C1B2815B5150073581A /* Service */,
+				94C84C1A2815B5110073581A /* Model */,
+				94C84C192815B5040073581A /* Core */,
+				94C84C182815B4F80073581A /* Extensions */,
 				94C84C0A2815B47C0073581A /* TwitterCloneSwiftUIApp.swift */,
 				94C84C0C2815B47C0073581A /* ContentView.swift */,
 				94C84C0E2815B47E0073581A /* Assets.xcassets */,
@@ -65,6 +69,66 @@
 				94C84C112815B47E0073581A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94C84C182815B4F80073581A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		94C84C192815B5040073581A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				94C84C1D2815B53A0073581A /* Feed */,
+				94C84C1C2815B5340073581A /* Components */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		94C84C1A2815B5110073581A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94C84C1B2815B5150073581A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		94C84C1C2815B5340073581A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		94C84C1D2815B53A0073581A /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				94C84C1F2815B5910073581A /* View */,
+				94C84C1E2815B5880073581A /* ViewModels */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		94C84C1E2815B5880073581A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		94C84C1F2815B5910073581A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
