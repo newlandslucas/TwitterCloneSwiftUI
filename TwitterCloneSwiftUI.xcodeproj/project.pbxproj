@@ -10,6 +10,7 @@
 		940297AF2818565100221C0E /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940297AE2818565100221C0E /* RoundedShape.swift */; };
 		940297B128185B8100221C0E /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940297B028185B8100221C0E /* RegistrationView.swift */; };
 		940297B328185C7000221C0E /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940297B228185C7000221C0E /* CustomInputField.swift */; };
+		940297B628185FCE00221C0E /* AuthenticationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940297B528185FCE00221C0E /* AuthenticationHeaderView.swift */; };
 		94AED8D428161ED200B0FA6F /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AED8D328161ED200B0FA6F /* NewTweetView.swift */; };
 		94AED8D62816206400B0FA6F /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AED8D52816206400B0FA6F /* TextArea.swift */; };
 		94AED8DB281624C900B0FA6F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AED8DA281624C900B0FA6F /* LoginView.swift */; };
@@ -36,6 +37,7 @@
 		940297AE2818565100221C0E /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
 		940297B028185B8100221C0E /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		940297B228185C7000221C0E /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
+		940297B528185FCE00221C0E /* AuthenticationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationHeaderView.swift; sourceTree = "<group>"; };
 		94AED8D328161ED200B0FA6F /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
 		94AED8D52816206400B0FA6F /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		94AED8DA281624C900B0FA6F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940297B428185FC000221C0E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				940297B528185FCE00221C0E /* AuthenticationHeaderView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		94AED8D028161E9D00B0FA6F /* UploadTweet */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +209,7 @@
 		94C84C1C2815B5340073581A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				940297B428185FC000221C0E /* Authentication */,
 				94C84C3E2815D67C0073581A /* Users */,
 				94C84C222815B6D00073581A /* Tweets */,
 				94AED8D52816206400B0FA6F /* TextArea.swift */,
@@ -425,6 +436,7 @@
 				940297B328185C7000221C0E /* CustomInputField.swift in Sources */,
 				94C84C0D2815B47C0073581A /* ContentView.swift in Sources */,
 				94C84C2F2815C38D0073581A /* NotificationsView.swift in Sources */,
+				940297B628185FCE00221C0E /* AuthenticationHeaderView.swift in Sources */,
 				94C84C242815B6E50073581A /* TweetRowView.swift in Sources */,
 				94C84C452815DFED0073581A /* SideMenuView.swift in Sources */,
 				94C84C212815B6100073581A /* FeedView.swift in Sources */,
