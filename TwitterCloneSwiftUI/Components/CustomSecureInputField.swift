@@ -21,13 +21,14 @@ struct CustomSecureInputField: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 20, height: 20)
-                    .foregroundColor(Color(.darkGray))
+                    .foregroundColor(Color(.white))
                 
                 SecureField(placeHolderText, text: $text)
+                    .foregroundColor(Color(.white))
             }
             
             Divider()
-                .foregroundColor(Color(.darkGray))
+                .foregroundColor(Color(.white))
         }
     }
 }

@@ -18,12 +18,14 @@ struct LoginView: View {
           
             
             //Header View
-            AuthenticationHeaderView(title1: "Hello", title2: "Welcome Back")
+            AuthenticationHeaderView(title1: "Hello", title2: "Welcome Back.")
             
             VStack(spacing: 40) {
                 CustomInputField(imageName: "envelope", placeHolderText: "Email", text: $email)
+                    .foregroundColor(Color.white)
                 
                 CustomSecureInputField(imageName: "lock", placeHolderText: "Password", text: $password)
+                    .foregroundColor(Color.white)
             }
             .padding(.horizontal, 32)
             .padding(.top, 44)
@@ -55,7 +57,7 @@ struct LoginView: View {
                     .clipShape(Capsule())
                     .padding()
             }
-            .shadow(color: .gray.opacity(0.5), radius: 10, x: 0, y: 0)
+            
 
             Spacer()
             
@@ -76,8 +78,11 @@ struct LoginView: View {
             .foregroundColor(Color(.systemBlue))
 
         }
+        .background(Color("darkTwitter"))
         .ignoresSafeArea()
+       
     }
+        
 }
 
 struct LoginView_Previews: PreviewProvider {

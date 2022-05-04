@@ -19,13 +19,14 @@ struct CustomInputField: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 20, height: 20)
-                    .foregroundColor(Color(.darkGray))
+                    .foregroundColor(Color(.white))
                 
                 TextField(placeHolderText, text: $text)
+                    .foregroundColor(Color(.white))
             }
             
             Divider()
-                .foregroundColor(Color(.darkGray))
+                .foregroundColor(Color(.white))
         }
     }
 }
